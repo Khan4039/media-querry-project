@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .box{
+            display: none;
+        }
+        
+         @media (max-width:450px){
+         fram1.box {
+            display: block;
+            background-color: brown;
+            height: 100vh;
+            border-radius: 50px;
+            text-align: center;
+        } 
+       }
+       
+
+         @media (min-width:450px) and (max-width:768px){
+            fram2.box {
+            display: block;
+            background-color:aqua;
+            height: 100vh;
+            border-radius: 50px;
+            text-align: center;
+        } 
+        }
+
+
+        @media (min-width:768px) and (max-width:1024px){
+            fram3.box {
+            display: block;
+            background-color:olive;
+            height: 100vh;
+            border-radius: 50px;
+            text-align: center;
+         } 
+        }
+
+
+        @media   (min-width:1024px) and (max-width:1440px){
+            fram4.box {
+            display: block;
+            background-color:darkgreen;
+            height: 100vh;
+            border-radius: 50px;
+            text-align: center;
+        } 
+        }  
+
+
+        @media screen and (min-width:1440px){
+            fram5.box {
+            display: block;
+            background-color:aquamarine;
+            height: 100vh;
+            border-radius: 50px;
+            text-align: center;
+        } 
+        }
+
+        
+    </style>
+  
+    <title>media querry</title>
+</head>
+<body>
+   <div>
+    <fram1 class="box">
+        <h1>This is a Media Querry demo page. </h1>
+        <p>Screen size: 425px</p>
+    </fram1>
+
+    <fram2 class="box">
+        <h1>This is a Media Querry demo page. </h1>
+        <p>Screen size:768px</p>
+    </fram2>
+
+    <fram3 class="box">
+        <h1>This is a Media Querry demo page. </h1>
+        <p>Screen size:1024px</p>
+    </fram3>
+
+    <fram4 class="box">
+        <h1>This is a Media Querry demo page. </h1>
+        <p>Screen size:1440</p>
+    </fram4>
+
+    <fram5 class="box">
+        <h1>This is a Media Querry demo page. </h1>
+    </fram5>
+   </div>
+
+    
+</body>
+</html>
